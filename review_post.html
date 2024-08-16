@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <meta name="travel" content="Get all your travel ideas & inspiration for your next trip">
+    <title>Home</title>
+    <link rel="stylesheet" href="generel.css">
+    <link rel="stylesheet" href="layout.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c5d83fc88a.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <a href="index.html">
+                <img src="billeder/LOGO.webp" width="100" height="56" alt="snapwave_logo">
+            </a>
+        </div>
+
+        <ul>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn" aria-label="menubar-dropdown">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+                <div class="dropdown-content">
+                    <a href="index.html">Home</a>
+                    <a href="my_journeys.html">My Journeys</a>
+                    <a href="others_journey.html">Others' Journeys</a>
+                    <a href="community.html">Community</a>
+                    <a href="#">Login</a>
+                </div>
+            </li>
+        </ul>
+
+        <div class="title">
+            <h1>TRAVEL JOURNAL</h1>
+            <p>Snap this moment</p>
+        </div>
+
+    </header>
+    <main>
+        <div class="posting">
+            <section class="post_guide">
+                <div class="user">
+                    <div class="profile_guide">
+                        <img src="billeder/traveller.webp" width="80" height="80" alt="user">
+                        <p>ID:skoghj</p>
+                    </div>
+                </div>
+                <div class="rating_noma">
+                    <h2>Noma “Great flavors and menu!”</h2>
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-regular fa-star">
+                    </i>
+
+                </div>
+
+            </section>
+            <section class="guide-pictures">
+                <div class="bike1">
+                    <img src="billeder/reivew/restaurant.webp" width="1044" height="616" alt="noma">
+                </div>
+                <div class="bike2">
+                    <img src="billeder/reivew/mad1.webp" width="517" height="345" alt="noma">
+                </div>
+                <div class="bike3">
+                    <img src="billeder/reivew/mad2.webp" width="517" height="345" alt="noma">
+                </div>
+            </section>
+            <section class="post_text">
+                <p>
+                    Dining at Noma in Copenhagen was an extraordinary experience that exceeded all expectations. The
+                    innovative Nordic cuisine is truly a work of art. Each dish was a masterpiece, with flavors that
+                    danced on my palate. The attention to detail in both presentation and taste is unparalleled. The
+                    staff’s knowledge and passion for the food they serve added to the overall exceptional dining
+                    experience. If you’re a food enthusiast, Noma is a must-visit in Copenhagen.
+                </p>
+
+                <div class="comment_open">
+                    <p>Comments</p>
+                    <i class="fa-solid fa-chevron-up"></i>
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <i class="fa-solid fa-bookmark"></i>
+                </div>
+                <div class="comment_profile">
+                    <i class="fa-solid fa-circle-user"></i>
+                    <p>Great post!</p>
+                </div>
+                <div class="comment_profile2">
+                    <i class="fa-solid fa-circle-user"></i>
+                    <p>Thanks for sharing your pictures</p>
+                </div>
+                <div class="line"></div>
+                <div class="mycomment">
+                    <i class="fa-solid fa-circle-h"></i>
+                    <form><label id="comment-label" for="comment">Comment:</label>
+                        <input type="text" id="comment" name="comment" aria-labelledby="comment-label">
+                    </form>
+                </div>
+            </section>
+
+        </div>
+
+
+        <section class="Community">
+            <div class="community_categorier_">
+                <a href="community.html">
+                    <h1>Community</h1>
+                </a>
+            </div>
+            <div class="searchbar">
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="Search for...">
+                    <button class="search-button" aria-label="Search"><i
+                            class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+
+            <div class="button-community">
+                <a href="guide.html" class="guide-button" onclick="buttonClick('guide.html')">Guides</a>
+                <a href="review.html" class="reviews-button" onclick="buttonClick('reviews.html')">Reviews</a>
+                <a href="https://www.travelyesplease.com/my-story/" class="yourstory-button"
+                    onclick="buttonClick('#')">Your Stories</a>
+                <a href="https://www.youtube.com/watch?v=IQzfprW0Yl0" class="youtube-button"
+                    onclick="buttonClick('#')">YouTube</a>
+                <a href="https://www.acko.com/travel-tips/travel-hacks/" class="tips-button"
+                    onclick="buttonClick('#')">Tips</a>
+            </div>
+
+            <div class="community_categorier_post">
+                <div class="copenhagen">
+                    <a href="guide-post.html">
+                        <img src="billeder/guide/bike1.webp" width="460" height="306" alt="Guide">
+                    </a>
+                </div>
+                <div class="guide">
+                    <a href="guide-post.html">
+                        <h2>Guide</h2>
+                        <p>Copenhagen 3-hour City Highlights Bike Tour</p>
+                        <p> Discover the popular attractions and sights of Copenhagen on this relaxed bike tour. Travel
+                            around like a local, thanks to the city’s infrastructure that’s designed for cyclists, as
+                            well
+                            as almost flat terrain. Hop on your easy-to-ride bike and cycle through the city as your
+                            guide
+                            tells stories about Copenhagen life....
+                        </p>
+                    </a>
+                </div>
+                <div class="copenhagen">
+                    <a href="review_post.html">
+                        <img src="billeder/reivew/restaurant.webp" width="460" height="306" alt="Review">
+                    </a>
+                </div>
+                <div class="noma_review">
+                    <h2>Review</h2>
+                    <div class="rating">
+                        <p>Noma</p>
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star">
+                        </i>
+                    </div>
+                    <a href="review_post.html">
+                        <p>Perfection</p>
+                        <p> Perfection. Food couldn't be better, same for design and service. Each dish is carefully
+                            thought
+                            of, both in culinary and design terms. The service is kind, attentive and friendly. Must go
+                        </p>
+                    </a>
+                </div>
+                <div class="story">
+                    <img src="billeder/profil2.webp" width="460" height="306" alt="yourstory">
+                </div>
+                <div class="yourstory">
+                    <h2>Your Story</h2>
+                    <p>HOW I CAME TO LOVE TRAVEL</p>
+                    <p> After a decade of teaching elementary school, and constantly dreaming about my next travel
+                        adventure, I decided to step back and follow my explorer’s heart, becoming a travel photographer
+                        and writer...
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>About</p>
+        <p>Contact</p>
+        <a href="https://www.instagram.com/hjskog/" aria-label="linkedin" alt="instagram"><i
+                class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/skovhj88/?locale=da_DK" aria-label="linkedin" alt="facebook"><i
+                class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://www.linkedin.com/" aria-label="linkedin" alt="linkedin"><i
+                class="fa-brands fa-linkedin"></i></a>
+    </footer>
+
+</body>
+
+</html>

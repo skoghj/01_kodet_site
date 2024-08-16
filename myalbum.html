@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <meta name="travel" content="Get all your travel ideas & inspiration for your next trip">
+    <title>Home</title>
+    <link rel="stylesheet" href="generel.css">
+    <link rel="stylesheet" href="layout.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c5d83fc88a.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <a href="index.html">
+                <img src="billeder/LOGO.png" width="100" height="56" alt="snapwave_logo">
+            </a>
+        </div>
+
+        <ul>
+            <li class="dropdown">
+                <a href="javascript:void(0)" aria-label="menubar-dropdown" class="dropbtn">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+                <div class="dropdown-content">
+                    <a href="index.html">Home</a>
+                    <a href="my_journeys.html">My Journeys</a>
+                    <a href="others_journey.html">Others' Journeys</a>
+                    <a href="community.html">Community</a>
+                    <a href="#">Login</a>
+                </div>
+            </li>
+        </ul>
+
+        <div class="title">
+            <h1>TRAVEL JOURNAL</h1>
+            <p>Snap this moment</p>
+        </div>
+
+    </header>
+    <main>
+        <section class="positano">
+            <div class="searchbar">
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="Explore My Journeys">
+                    <button class="search-button" aria-label="Search"><i
+                            class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+            <div class="positano_trip">
+                <h1>Positano</h1>
+                <div class="button-container">
+                    <button class="seemore" onclick="buttonClick()">
+                        See more
+                        <i class="fa-solid fa-location-dot"></i>
+                    </button>
+                    <a href="myalbum.html" class="Add" onclick="buttonClick()">
+                        Add
+                        <i class="fa-solid fa-circle-plus"></i>
+                    </a>
+                    <a href="myalbum.html" class="chat" onclick="buttonClick()">
+                        Chat
+                        <i class="fa-regular fa-comments"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="slideshow-container2">
+                <div class="mySlides fade" style="display: block">
+                    <div class="numbertext">1 / 10</div>
+                    <img src="billeder/myalbum/italy2.webp" width="1000" height="666" alt="positano" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 10</div>
+                    <img src="billeder/myalbum/italy3.webp" width="1000" height="666" alt="positano" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 10</div>
+                    <img src="billeder/myalbum/italy4.webp" width="1000" height="666" alt="positano" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 10</div>
+                    <img src="billeder/myalbum/italy5.webp" width="1000" height="641" alt="positano" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 10</div>
+                    <img src="billeder/myalbum/italy6.webp" width="1000" height="666" alt="positano" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">6 / 10</div>
+                    <img src="billeder/myalbum/DSC_2385.webp" width="1000" height="666" alt="positano"
+                        style="width:100%">
+                </div>
+                <a class="prev2" onclick="plusSlides(-1)">❮</a>
+                <a class="next2" onclick="plusSlides(1)">❯</a>
+                <div class="ikoner">
+                    <i class="fa-solid fa-heart" onclick="changeColor"></i>
+                    <i class="fa-solid fa-share-nodes"></i>
+                    <i class="fa-solid fa-download"></i>
+                </div>
+                <div class="tekst">
+                    <p>Positano er en af de fineste byer langs Amalfikysten - ofte kaldet verdens smukkeste
+                        kyststrækning
+                        med strande, smukke udsigter og restauranter. Jeg er meget glæder for at jeg kunne besøge her!
+                    </p>
+                    <div class="comment_open">
+                        <p>Comments</p>
+                        <i class="fa-solid fa-chevron-up"></i>
+                    </div>
+                    <div class="comment_profile">
+                        <i class="fa-solid fa-circle-user"></i>
+                        <p>Great post!</p>
+                    </div>
+                    <div class="comment_profile2">
+                        <i class="fa-solid fa-circle-user"></i>
+                        <p>Thanks for sharing your pictures</p>
+                    </div>
+                    <div class="line"></div>
+                    <div class="mycomment" aria-labelledby="fname">
+                        <i class="fa-solid fa-circle-h"></i>
+                        <form><label id="fname-label" for="fname"></label>
+                            <input type="text" id="fname" name="fname">
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+            <div class="album">
+                <div class="italy1"><img src="billeder/myalbum/italy2.webp" width="380" height="253" alt="italy"></div>
+                <div class="italy2"><img src="billeder/myalbum/italy3.webp" width="380" height="253" alt="italy"></div>
+                <div class="italy3"><img src="billeder/myalbum/italy4.webp" width="380" height="253" alt="Italy"></div>
+                <div class="italy4"><img src="billeder/myalbum/italy5.webp" width="380" height="253" alt="Italy"></div>
+                <div class="italy5"><img src="billeder/myalbum/italy6.webp" width="380" height="253" alt="italy"></div>
+                <div class="italy6"><img src="billeder/myalbum/DSC_2385.webp" width="380" height="253" alt="italy">
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>About</p>
+        <p>Contact</p>
+        <a href="https://www.instagram.com/hjskog/" aria-label="linkedin" alt="instagram"><i
+                class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/skovhj88/?locale=da_DK" aria-label="linkedin" alt="facebook"><i
+                class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://www.linkedin.com/" aria-label="linkedin" alt="linkedin"><i
+                class="fa-brands fa-linkedin"></i></a>
+    </footer>
+</body>
+
+</html>

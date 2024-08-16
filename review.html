@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <meta name="travel" content="Get all your travel ideas & inspiration for your next trip">
+    <title>Home</title>
+    <link rel="stylesheet" href="generel.css">
+    <link rel="stylesheet" href="layout.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c5d83fc88a.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <a href="index.html">
+                <img src="billeder/LOGO.webp" width="100" height="56" alt="snapwave_logo">
+            </a>
+        </div>
+
+        <ul>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn" aria-label="menubar-dropdown">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+                <div class="dropdown-content">
+                    <a href="index.html">Home</a>
+                    <a href="my_journeys.html">My Journeys</a>
+                    <a href="others_journey.html">Others' Journeys</a>
+                    <a href="community.html">Community</a>
+                    <a href="#">Login</a>
+                </div>
+            </li>
+        </ul>
+
+        <div class="title">
+            <h1>TRAVEL JOURNAL</h1>
+            <p>Snap this moment</p>
+        </div>
+
+    </header>
+
+    <main>
+        <section class="Community">
+            <a href="community.html">
+                <h1>Community</h1>
+            </a>
+
+            <div class="searchbar">
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="Search for...">
+                    <button class="search-button" aria-label="Search"><i
+                            class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+
+            <div class="button-community">
+                <a href="guide.html" class="guide-button" onclick="buttonClick('guide.html')">Guides</a>
+                <a href="review.html" class="reviews-button" onclick="buttonClick('reviews.html')">Reviews</a>
+                <a href="https://www.travelyesplease.com/my-story/" class="yourstory-button"
+                    onclick="buttonClick('#')">Your Stories
+                </a>
+                <a href="https://www.youtube.com/watch?v=IQzfprW0Yl0" class="youtube-button"
+                    onclick="buttonClick('#')">YouTube
+                </a>
+                <a href="https://www.acko.com/travel-tips/travel-hacks/" class="tips-button"
+                    onclick="buttonClick('#')">Tips
+                </a>
+            </div>
+
+            <div class="review_post">
+                <div class="copenhagen">
+                    <a href="review_post.html">
+                        <img src="billeder/reivew/restaurant.webp" alt="Review">
+                    </a>
+                </div>
+                <div class="review2">
+                    <h2>Review</h2>
+                    <div class="rating">
+                        <p>Noma</p>
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star">
+                        </i>
+                    </div>
+                    <a href="review_post.html">
+                        <p>Perfection</p>
+                        <p> Perfection. Food couldn't be better, same for design and service. Each dish is carefully
+                            thought
+                            of, both in culinary and design terms. The service is kind, attentive and friendly. Must go
+                        </p>
+                    </a>
+                </div>
+                <div class="copenhagen">
+                    <img src="billeder/reivew/cafe.webp" alt="Review">
+                </div>
+                <div class="review2">
+                    <h2>Review</h2>
+                    <div class="rating">
+                        <p>Conditori La Glace</p>
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star">
+                        </i>
+                    </div>
+                    <p>“Taste bud party 🥳”</p>
+                    <p> Recommended to have coffee and cake at La Glace. Also advised to have Sportskage. This must be
+                        the best cake I've ever had! Was stunning weather and we sat outside having coffee and
+                        Sportskage. Highly recommend.
+                    </p>
+                </div>
+                <div class="copenhagen">
+                    <img src="billeder/reivew/hotel.webp" alt="Review">
+                </div>
+                <div class="review3">
+                    <h2>Review</h2>
+                    <div class="rating">
+                        <p>Zenzes Wellness</p>
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star">
+                        </i>
+                    </div>
+                    <p>Zenzes is the Place to Go, Without Hesitation</p>
+                    <p> Best treatment that I have ever received! Came for sports massage but reiceived so much more.
+                        Eddy finds and gives excatly what is needed for a body and soul, it is not just a massage, it is
+                        an unique experience. Nice atmosphere and relaxing music.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>About</p>
+        <p>Contact</p>
+        <a href="https://www.instagram.com/hjskog/" aria-label="linkedin" alt="instagram"><i
+                class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/skovhj88/?locale=da_DK" aria-label="linkedin" alt="facebook"><i
+                class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://www.linkedin.com/" aria-label="linkedin" alt="linkedin"><i
+                class="fa-brands fa-linkedin"></i></a>
+    </footer>
+
+
+</body>
+
+</html>
